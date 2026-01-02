@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./views/vite.svg";
 import "./views/App.scss";
 import "./style/global.scss";
-function App() {
+const App = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -30,6 +30,6 @@ function App() {
       </p>
     </>
   );
-}
+};
 
 export default App;
