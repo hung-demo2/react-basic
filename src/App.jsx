@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./views/vite.svg";
 import "./views/App.scss";
 import "./style/global.scss";
+import MyComponent from "./views/Example/MyComponent.jsx";
 const App = () => {
   const [count, setCount] = useState(0);
 
@@ -28,6 +29,7 @@ const App = () => {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <MyComponent />
     </>
   );
 };
